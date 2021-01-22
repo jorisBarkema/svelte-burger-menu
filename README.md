@@ -3,12 +3,12 @@ Simple burger menu for Svelte with CSS transformations and transitions. Tested i
 
 # How to use
 To import the Burgermenu, install the component using 
-'''
+```
 npm install svelte-burger-menu
-'''
+```
 
 And in the file where you want to use it:
-'''
+```
 <script>
     import BurgerMenu from 'svelte-burger-menu';=
 </script>
@@ -17,7 +17,7 @@ And in the file where you want to use it:
     <h2>Home</h2>
     <h2>About</h2>
 </BurgerMenu>
-'''
+```
 
 # Props
 | Name             | Description                                                                                                     | Default                 |
