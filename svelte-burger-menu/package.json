@@ -1,0 +1,31 @@
+{
+  "name": "svelte-burger-menu",
+  "version": "1.0.2",
+  "description": "Simple burger menu for Svelte.",
+  "svelte": "src/index.js",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "rollup": "^2.0.0",
+    "rollup-plugin-svelte": "^6.0.0",
+    "svelte": "^3.0.0"
+  },
+  "keywords": [
+    "svelte",
+    "burger menu",
+    "menu",
+    "burger"
+  ],
+  "files": [
+    "src",
+    "dist"
+  ],
+  "author": "Joris Barkema",
+  "license": "ISC",
+  "dependencies": {}
+}
