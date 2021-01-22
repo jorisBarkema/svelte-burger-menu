@@ -6,7 +6,7 @@
 
     export let duration = 0.4;
     export let width = '300px';
-    export let padding = '15px';
+    export let padding = '25px';
     export let paddingTop = '50px';
     export let backgroundColor = 'rgb(1, 0, 74)';
     export let burgerColor = 'rgb(18.4, 18.4, 18.4)';
