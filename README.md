@@ -10,7 +10,7 @@ npm install svelte-burger-menu
 And in the file where you want to use it:
 ```
 <script>
-    import BurgerMenu from 'svelte-burger-menu';=
+    import BurgerMenu from 'svelte-burger-menu';
 </script>
 
 <BurgerMenu>
