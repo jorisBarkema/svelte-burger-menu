@@ -26,6 +26,10 @@
     "dist"
   ],
   "author": "Joris Barkema",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jorisBarkema/svelte-burger-menu.git"
+  },
   "license": "ISC",
   "dependencies": {}
 }
