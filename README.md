@@ -21,7 +21,7 @@ And in the file where you want to use it:
 
 # Props
 | Name             | Description                                                                                                     | Default                 |
-| ---------------- |:---------------------------------------------------------------------------------------------------------------:| ----------------------- |
+| ---------------- | --------------------------------------------------------------------------------------------------------------- | ----------------------- |
 | duration         | Duration of the opening transition in seconds as a number                                                       | 0.4                     |
 | width            | Width of the opened menu, accepts CSS values such as '300px' and '50%'                                          | '300px'                 | 
 | backgroundColor  | Background color of the opened menu, accepts CSS colors                                                         |'rgb(1, 0, 74)'          |
