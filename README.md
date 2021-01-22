@@ -1,6 +1,6 @@
 # svelte-burger-menu
-Simple burger menu for Svelte with CSS transformations and transitions. Tested in Chrome, Edge, Firefox.
-
+Simple burger menu for Svelte with CSS transformations and transitions. Tested in Chrome, Edge, Firefox.<br>  
+Demo: [svelte-burger-menu](https://svelte.dev/repl/9fae5dd43aae48feaa1018bbd798de0e?version=3.31.2)
 # How to use
 To import the Burgermenu, install the component using 
 ```
