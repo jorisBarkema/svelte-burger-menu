@@ -2,7 +2,7 @@
     import BurgerButton from './BurgerButton.svelte'
     import SideMenu from './SideMenu.svelte'
 
-    let open = false;
+    export let open = false;
 
     export let duration = 0.4;
     export let width = '300px';
