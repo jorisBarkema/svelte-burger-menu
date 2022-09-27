@@ -1,5 +1,8 @@
 import svelte from 'rollup-plugin-svelte';
 import resolve from '@rollup/plugin-node-resolve';
+import sveltePreprocess from 'svelte-preprocess';
+import typescript from '@rollup/plugin-typescript';
+import commonjs from '@rollup/plugin-commonjs';
 import pkg from './package.json';
 
 const name = pkg.name
@@ -12,8 +15,7 @@ export default {
 	output: [
 		{ file: pkg.module, 'format': 'es' },
 		{ file: pkg.main, 'format': 'umd', name },
-		{ file: './build/bundle.js' },
-		{ format: 'iife' }
+		{ file: 'dist/bundle.js' },
 	],
 	plugins: [
 		svelte({
