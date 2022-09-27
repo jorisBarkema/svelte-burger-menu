@@ -1,9 +1,11 @@
-<script>
-    export let open;
+<script lang="ts">
+    import BurgerMenu from './BurgerMenu.svelte';
 
-    export let duration;
-    export let burgerColor;
-    export let menuColor;
+    export let open: boolean;
+
+    export let duration: number;
+    export let burgerColor: string;
+    export let menuColor: string;
 </script>
 
 <style>

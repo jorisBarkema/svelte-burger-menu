@@ -8,13 +8,19 @@ const name = pkg.name
 	.replace(/-\w/g, m => m[1].toUpperCase());
 
 export default {
-	input: 'src/index.js',
+	input: 'src/index.ts',
 	output: [
 		{ file: pkg.module, 'format': 'es' },
-		{ file: pkg.main, 'format': 'umd', name }
+		{ file: pkg.main, 'format': 'umd', name },
+		{ file: './build/bundle.js' },
+		{ format: 'iife' }
 	],
 	plugins: [
-		svelte(),
-		resolve()
+		svelte({
+            preprocess: sveltePreprocess(),
+        }),
+		resolve(),
+		commonjs(),
+        typescript(),
 	]
 };
