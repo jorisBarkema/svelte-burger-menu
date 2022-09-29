@@ -1,4 +1,9 @@
 {
+    "compilerOptions": {
+        "declaration": true,
+        "declarationMap": true,
+        "declarationDir": "./dist"
+    },
     "extends": "@tsconfig/svelte/tsconfig.json",
     "include": ["src/**/*"],
     "exclude": ["node_modules/*"]
