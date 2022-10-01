@@ -1,1 +1,0 @@
-<hr style="width: 100%; color: inherit;" />
