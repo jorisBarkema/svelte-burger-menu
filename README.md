@@ -1,6 +1,9 @@
 # svelte-burger-menu
 Simple burger menu for Svelte with CSS transformations and transitions. Tested in Chrome, Edge, Firefox.<br>  
 Demo: [svelte-burger-menu](https://svelte.dev/repl/9fae5dd43aae48feaa1018bbd798de0e?version=3.31.2)
+<br><br>
+This package uses typescript since 2.0.0, use 1.0.5 for the latest non-typescript version.
+
 # How to use
 To import the Burgermenu, install the component using 
 ```
@@ -16,6 +19,8 @@ And in the file where you want to use it:
 <BurgerMenu>
     <h2>Home</h2>
     <h2>About</h2>
+    <Divider />
+    <h2>Contact</h2>
 </BurgerMenu>
 ```
 
