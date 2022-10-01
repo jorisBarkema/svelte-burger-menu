@@ -1,2 +1,5 @@
-export { default as BurgerMenu } from './BurgerMenu.svelte';
-export { default as Divider } from './Divider.svelte';
+import BurgerMenu from './BurgerMenu.svelte';
+import Divider from './Divider.svelte';
+
+export { BurgerMenu as BurgerMenu };
+export { Divider as Divider };
