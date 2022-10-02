@@ -4,6 +4,7 @@
   "description": "Simple burger menu for Svelte with CSS transformations and transitions.",
   "svelte": "src/index.ts",
   "module": "dist/index.mjs",
+  "typings": "dist/index.d.ts",
   "main": "dist/index.mjs",
   "scripts": {
     "build": "rollup -c",
