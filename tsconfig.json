@@ -5,6 +5,6 @@
         "declarationDir": "./dist"
     },
     "extends": "@tsconfig/svelte/tsconfig.json",
-    "include": ["src/**/*"],
+    "include": ["src/**/*", "src/types"],
     "exclude": ["node_modules/*"]
 }
