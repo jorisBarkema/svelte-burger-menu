@@ -1,6 +1,6 @@
 {
   "name": "svelte-burger-menu",
-  "version": "3.0.4",
+  "version": "3.0.0",
   "description": "Simple burger menu for Svelte with CSS transformations and transitions.",
   "svelte": "src/index.ts",
   "module": "dist/index.mjs",
