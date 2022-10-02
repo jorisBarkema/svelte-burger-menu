@@ -2,7 +2,6 @@ import svelte from 'rollup-plugin-svelte';
 import resolve from '@rollup/plugin-node-resolve';
 import sveltePreprocess from 'svelte-preprocess';
 import typescript from '@rollup/plugin-typescript';
-import dts from 'rollup-plugin-dts';
 import commonjs from '@rollup/plugin-commonjs';
 import pkg from './package.json';
 
@@ -17,8 +16,8 @@ export default {
 		{ file: pkg.module, 'format': 'es' },
 		{ file: pkg.main, 'format': 'umd', name },
 		{ file: 'dist/bundle.js' },
-		{ file: 'dist/bundle.d.ts'}
 	],
+	
 	plugins: [
 		svelte({
             preprocess: sveltePreprocess(),
@@ -26,6 +25,5 @@ export default {
 		resolve(),
 		commonjs(),
         typescript(),
-		[dts()]
 	]
 };
