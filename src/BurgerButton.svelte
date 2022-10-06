@@ -1,9 +1,9 @@
 <script lang="ts">
-    export let open: boolean;
+    export let open;
 
-    export let duration: number;
-    export let burgerColor: string;
-    export let menuColor: string;
+    export let duration;
+    export let burgerColor;
+    export let menuColor;
 </script>
 
 <style>
